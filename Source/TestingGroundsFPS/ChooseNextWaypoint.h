@@ -19,4 +19,6 @@ class TESTINGGROUNDSFPS_API UChooseNextWaypoint : public UBTTaskNode
 protected:
 	UPROPERTY(EditAnywhere, Category = "Blackboard")
 	struct FBlackboardKeySelector IndexKey;
+	UPROPERTY(EditAnywhere, Category = "Blackboard")
+	struct FBlackboardKeySelector WaypointKey;
 };
