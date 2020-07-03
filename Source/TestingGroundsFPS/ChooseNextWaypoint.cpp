@@ -3,9 +3,9 @@
 
 #include "ChooseNextWaypoint.h"
 #include "BehaviorTree/BlackboardComponent.h"
-#include "PatrollingGuard.h"
 #include "AIController.h"
 #include "TP_ThirdPerson/PatrolRoute.h"
+#include "TP_ThirdPerson/TP_ThirdPersonCharacter.h"
 
 EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
